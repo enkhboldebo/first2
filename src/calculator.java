@@ -6,6 +6,7 @@ public class calculator {
         Scanner scanner = new Scanner(System.in);
         int a;
         int b;
+        int something = 1000;
         int sum;
         int multi;
         int devide;
