@@ -12,5 +12,6 @@ public class RGB7012 {
         System.out.println(hour + " " + minute + " " + second);
     }
 }
+       //         ene ajillahgui bga
 
 

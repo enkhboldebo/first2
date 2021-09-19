@@ -5,9 +5,17 @@ public class method2homework {
         System.out.print("Enter number between 1-7: ");
         Scanner input = new Scanner(System.in);
         int num = input.nextInt();
-        String day = weekFunc(num);
+        String day;
 
-        System.out.println("It's" + day);
+
+
+        while(num!=-1){
+            day = weekFunc(num);
+            System.out.println("It's" + day);
+            System.out.print("Enter number between 1-7 (-1 to exit): ");
+            num = input.nextInt();
+        }
+        System.out.println("Thank you for using my application");
 
     }
     public static String weekFunc(int op){
